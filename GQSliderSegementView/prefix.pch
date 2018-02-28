@@ -1,0 +1,13 @@
+//
+//  prefix.pch
+//  GQSliderSegementView
+//
+//  Created by 陆国庆 on 2018/2/28.
+//  Copyright © 2018年 lgq. All rights reserved.
+//
+
+#ifndef prefix_h
+#define prefix_h
+
+#import <Masonry/Masonry.h>
+#endif /* prefix_h */

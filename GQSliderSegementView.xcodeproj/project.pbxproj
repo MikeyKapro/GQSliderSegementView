@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3783B5952045A0C600D65D23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3783B5942045A0C600D65D23 /* AppDelegate.m */; };
+		3783B5982045A0C600D65D23 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3783B5972045A0C600D65D23 /* ViewController.m */; };
+		3783B59B2045A0C600D65D23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3783B5992045A0C600D65D23 /* Main.storyboard */; };
+		3783B59D2045A0C600D65D23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3783B59C2045A0C600D65D23 /* Assets.xcassets */; };
+		3783B5A02045A0C600D65D23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3783B59E2045A0C600D65D23 /* LaunchScreen.storyboard */; };
+		3783B5A32045A0C600D65D23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3783B5A22045A0C600D65D23 /* main.m */; };
+		3783B5AB2045A19C00D65D23 /* GQSliderSegementView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3783B5AA2045A19C00D65D23 /* GQSliderSegementView.m */; };
+		D68370E41AFE1D652A254A8A /* libPods-GQSliderSegementView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9B9F4F92C00B31F366F30A /* libPods-GQSliderSegementView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37267D742046427200E80B16 /* prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = prefix.pch; sourceTree = "<group>"; };
+		3783B5902045A0C600D65D23 /* GQSliderSegementView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GQSliderSegementView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3783B5932045A0C600D65D23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3783B5942045A0C600D65D23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3783B5962045A0C600D65D23 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3783B5972045A0C600D65D23 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3783B59A2045A0C600D65D23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3783B59C2045A0C600D65D23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3783B59F2045A0C600D65D23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3783B5A12045A0C600D65D23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3783B5A22045A0C600D65D23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3783B5A92045A19C00D65D23 /* GQSliderSegementView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQSliderSegementView.h; sourceTree = "<group>"; };
+		3783B5AA2045A19C00D65D23 /* GQSliderSegementView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQSliderSegementView.m; sourceTree = "<group>"; };
+		5E9B9F4F92C00B31F366F30A /* libPods-GQSliderSegementView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GQSliderSegementView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FA3AB249DA2E5DC8DD95889 /* Pods-GQSliderSegementView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GQSliderSegementView.release.xcconfig"; path = "Pods/Target Support Files/Pods-GQSliderSegementView/Pods-GQSliderSegementView.release.xcconfig"; sourceTree = "<group>"; };
+		F08915AB27218B7C6BD841DC /* Pods-GQSliderSegementView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GQSliderSegementView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GQSliderSegementView/Pods-GQSliderSegementView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3783B58D2045A0C600D65D23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D68370E41AFE1D652A254A8A /* libPods-GQSliderSegementView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3783B5872045A0C600D65D23 = {
+			isa = PBXGroup;
+			children = (
+				3783B5922045A0C600D65D23 /* GQSliderSegementView */,
+				3783B5912045A0C600D65D23 /* Products */,
+				E202FAE3EF0C1D29B69A0457 /* Pods */,
+				E628FBA4FCC0FE705E64B690 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3783B5912045A0C600D65D23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3783B5902045A0C600D65D23 /* GQSliderSegementView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3783B5922045A0C600D65D23 /* GQSliderSegementView */ = {
+			isa = PBXGroup;
+			children = (
+				3783B5932045A0C600D65D23 /* AppDelegate.h */,
+				3783B5942045A0C600D65D23 /* AppDelegate.m */,
+				3783B5962045A0C600D65D23 /* ViewController.h */,
+				3783B5972045A0C600D65D23 /* ViewController.m */,
+				3783B5A92045A19C00D65D23 /* GQSliderSegementView.h */,
+				3783B5AA2045A19C00D65D23 /* GQSliderSegementView.m */,
+				3783B5992045A0C600D65D23 /* Main.storyboard */,
+				3783B59C2045A0C600D65D23 /* Assets.xcassets */,
+				3783B59E2045A0C600D65D23 /* LaunchScreen.storyboard */,
+				3783B5A12045A0C600D65D23 /* Info.plist */,
+				3783B5A22045A0C600D65D23 /* main.m */,
+				37267D742046427200E80B16 /* prefix.pch */,
+			);
+			path = GQSliderSegementView;
+			sourceTree = "<group>";
+		};
+		E202FAE3EF0C1D29B69A0457 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F08915AB27218B7C6BD841DC /* Pods-GQSliderSegementView.debug.xcconfig */,
+				9FA3AB249DA2E5DC8DD95889 /* Pods-GQSliderSegementView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E628FBA4FCC0FE705E64B690 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E9B9F4F92C00B31F366F30A /* libPods-GQSliderSegementView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3783B58F2045A0C600D65D23 /* GQSliderSegementView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3783B5A62045A0C600D65D23 /* Build configuration list for PBXNativeTarget "GQSliderSegementView" */;
+			buildPhases = (
+				EF084BC6AB996EFD55495562 /* [CP] Check Pods Manifest.lock */,
+				3783B58C2045A0C600D65D23 /* Sources */,
+				3783B58D2045A0C600D65D23 /* Frameworks */,
+				3783B58E2045A0C600D65D23 /* Resources */,
+				0E77299EF59F40DB0EFD0586 /* [CP] Embed Pods Frameworks */,
+				0F7A59688EAB965C8223610A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GQSliderSegementView;
+			productName = GQSliderSegementView;
+			productReference = 3783B5902045A0C600D65D23 /* GQSliderSegementView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3783B5882045A0C600D65D23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = lgq;
+				TargetAttributes = {
+					3783B58F2045A0C600D65D23 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3783B58B2045A0C600D65D23 /* Build configuration list for PBXProject "GQSliderSegementView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3783B5872045A0C600D65D23;
+			productRefGroup = 3783B5912045A0C600D65D23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3783B58F2045A0C600D65D23 /* GQSliderSegementView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3783B58E2045A0C600D65D23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3783B5A02045A0C600D65D23 /* LaunchScreen.storyboard in Resources */,
+				3783B59D2045A0C600D65D23 /* Assets.xcassets in Resources */,
+				3783B59B2045A0C600D65D23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E77299EF59F40DB0EFD0586 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GQSliderSegementView/Pods-GQSliderSegementView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0F7A59688EAB965C8223610A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GQSliderSegementView/Pods-GQSliderSegementView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF084BC6AB996EFD55495562 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GQSliderSegementView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3783B58C2045A0C600D65D23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3783B5982045A0C600D65D23 /* ViewController.m in Sources */,
+				3783B5AB2045A19C00D65D23 /* GQSliderSegementView.m in Sources */,
+				3783B5A32045A0C600D65D23 /* main.m in Sources */,
+				3783B5952045A0C600D65D23 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3783B5992045A0C600D65D23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3783B59A2045A0C600D65D23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3783B59E2045A0C600D65D23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3783B59F2045A0C600D65D23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3783B5A42045A0C600D65D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3783B5A52045A0C600D65D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3783B5A72045A0C600D65D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F08915AB27218B7C6BD841DC /* Pods-GQSliderSegementView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PLTT4Z4US7;
+				GCC_PREFIX_HEADER = /Users/luguoqing/Desktop/GQSliderSegementView/GQSliderSegementView/prefix.pch;
+				INFOPLIST_FILE = GQSliderSegementView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = s.GQSliderSegementView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3783B5A82045A0C600D65D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FA3AB249DA2E5DC8DD95889 /* Pods-GQSliderSegementView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PLTT4Z4US7;
+				GCC_PREFIX_HEADER = /Users/luguoqing/Desktop/GQSliderSegementView/GQSliderSegementView/prefix.pch;
+				INFOPLIST_FILE = GQSliderSegementView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = s.GQSliderSegementView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3783B58B2045A0C600D65D23 /* Build configuration list for PBXProject "GQSliderSegementView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3783B5A42045A0C600D65D23 /* Debug */,
+				3783B5A52045A0C600D65D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3783B5A62045A0C600D65D23 /* Build configuration list for PBXNativeTarget "GQSliderSegementView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3783B5A72045A0C600D65D23 /* Debug */,
+				3783B5A82045A0C600D65D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3783B5882045A0C600D65D23 /* Project object */;
+}
