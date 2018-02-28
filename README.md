@@ -1,0 +1,3 @@
+# GQSliderSegementView
+
+一个根据传入的标题数组和标题颜色而创建的Segment
