@@ -367,8 +367,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PLTT4Z4US7;
-				GCC_PREFIX_HEADER = /Users/luguoqing/Desktop/GQSliderSegementView/GQSliderSegementView/prefix.pch;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GQSliderSegementView/prefix.pch";
 				INFOPLIST_FILE = GQSliderSegementView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -390,8 +390,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PLTT4Z4US7;
-				GCC_PREFIX_HEADER = /Users/luguoqing/Desktop/GQSliderSegementView/GQSliderSegementView/prefix.pch;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GQSliderSegementView/prefix.pch";
 				INFOPLIST_FILE = GQSliderSegementView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
