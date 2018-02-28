@@ -16,7 +16,8 @@
  @param view Segment
  @param selectIndex 第几个选项
  */
-- (void)sliderSegementView:(UIView *)view selectIndex:(NSInteger)selectIndex;
+- (void)sliderSegementView:(UIView *)view
+               selectIndex:(NSInteger)selectIndex;
 
 @end
 
@@ -36,7 +37,13 @@
  @param hiddenVertical 是否隐藏中间分割线
  @return 返回视图
  */
-- (instancetype)initWithFrame:(CGRect)frame titleArr:(NSArray *)titleArr titleColor:(UIColor *)titleColor selectTitleColor:(UIColor *)selectTitleColor titleFont:(UIFont *)titleFont selectTitleFont:(UIFont *)selectTitleFont hiddenVertical:(BOOL)hiddenVertical;
+- (instancetype)initWithFrame:(CGRect)frame
+                     titleArr:(NSArray *)titleArr
+                   titleColor:(UIColor *)titleColor
+             selectTitleColor:(UIColor *)selectTitleColor
+                    titleFont:(UIFont *)titleFont
+              selectTitleFont:(UIFont *)selectTitleFont
+               hiddenVertical:(BOOL)hiddenVertical;
 
 /**
  使Segment指向第几个选项
